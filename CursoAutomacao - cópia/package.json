@@ -1,0 +1,21 @@
+{
+  "name": "cursoautomacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-identity": "^0.0.1-security",
+    "cypress": "^12.17.4",
+    "cypress-real-events": "^1.7.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "type": "commonjs"
+}

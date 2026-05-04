@@ -1,0 +1,69 @@
+<!DOCTYPE html">
+
+<html lang="pt-br">
+<head>
+	<title>Curso Automação de Testes</title>
+	<meta charset="utf-8"/>
+
+	<a href="./login.html"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Voltar</button></a>
+	<a href="texto.html"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Texto</button></a>
+	<a href="imagem.html"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Imagem</button></a>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+	<link rel="stylesheet" href="./css//minimal.css">
+
+	<link rel="stylesheet" type="text/css" href="./css/Css.css" />	
+	
+	<script src="myscript.js"></script>
+</head>
+
+<body>
+	<div class="all">
+		<h1 class="title">Curso Automação de Testes Bàsico</h1>
+		<div class="center-fixed">	
+			<form id="frmCadastro">
+				<label for="txtNome">Nome Completo</label><br>
+				<input type="text" id="txtNome" placeholder="Nome Completo"><br>
+
+                <label for="numero">Telefone</label><br>
+				<input type="text" id="numero" placeholder="Telefone"><br>
+				
+				<label for="dtpDataNascimento">Data de Nascimento</label><br>
+				<input type="date" id="dtpDataNascimento" value="1990-08-29" required>
+				
+				<fieldset>
+					<legend>Sexo</legend>
+					<input type="radio" name="genero" value="male" id="rdoMasculino" checked>
+					<label for="rdoMasculino">Masculino</label><br>		
+					
+					<input type="radio" name="genero" value="female" id="rdoFeminino">
+					<label for="rdoFeminino">Feminino</label>
+				</fieldset>
+				
+				<input type="submit" name="" id="btnCadastrarSalvar" value="Cadastrar">
+			</form>
+	
+		</div>
+		<table>
+			<caption><h2>Tabela</h2></caption>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Nome</th>
+                    <th>Telefone</th>
+					<th>Nascimento</th>
+					<th>Sexo</th>
+					<th>Ultima Atualização</th>
+				</tr>
+			</thead>
+			<tbody id="tbodyResultados"></tbody>
+			<tfoot></tfoot>
+		</table>
+
+		
+	</div>
+
+
+</body>
+</html>

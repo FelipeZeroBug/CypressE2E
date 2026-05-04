@@ -1,0 +1,158 @@
+.all{	
+	background-color: darkslateblue;
+	display: table;
+	margin: 0 auto;
+	padding: 50px;
+    
+}
+
+.title {	
+	background-color: darkorange;
+	text-align: center;
+}
+
+.center-fixed{	
+	/* background-color: sandybrown ; */
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+form{	
+	background-color: lightcyan;
+	width: 800px;
+	height: 650px;
+	margin: 0 auto auto auto; /*top, right, bottom, and left*/
+	padding: 50px;
+	border: 10px solid black;
+	border-radius: 20px;
+    margin-left: -200px;
+}
+
+	form label, form fieldset{
+		/*background-color: pink;*/	
+		font: bold 25px calibri, Arial, Courier;
+	}
+
+	form input{		
+	   	box-sizing: border-box;
+	   	border: 2px solid #ccc;
+	   	font: 15px arial, sans-serif;
+   		margin-bottom: 12px;	
+	}
+
+		form input:hover{
+
+		}
+
+		form input:focus{
+			border: 3px solid #333;			
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+    		outline: none;
+		}
+
+		form input[type=text]{
+			width: 100%;
+		    padding: 10px 5px;	    
+		}
+
+		form input[type=date]{
+			padding: 5px 5px;
+		}
+
+		form fieldset{				
+			width:125px;
+			height:auto;
+			border: none;
+			border-radius: 10px;
+		}
+			
+			form fieldset input[type=radio]{
+				width: 15px;
+				height: 15px;
+			}
+
+			form fieldset label{/*Radio Name*/				
+				/*background-color: lightgreen;*/
+				font: 16px arial, sans-serif;
+			}
+
+		form input[type=submit]{
+			width: 20%;
+			margin-left: 5%;
+			margin-top: 2px;			
+			padding: 12px 32px;	/*top bottom - left right*/
+    		transition: 0.1s;
+    		border: 0 none; 
+    		border-radius: 20px;  		
+			background-color: black;				
+			color: white;			
+			cursor: pointer;
+		}
+
+			form input[type=submit]:hover{
+				background-color: lightgray;
+				color: black;			
+			}
+
+			form input[type=submit]:active{
+				font-weight: bold;
+			}
+
+table{
+	width: auto;
+	margin: 0 auto;
+    border-collapse: collapse;    
+}
+	table caption{
+        margin-top: 180px;
+		font: 25px Papyrus;
+		text-shadow: 2px 2px lightgray;
+
+	}
+	/*Linha do titulo*/
+	table thead tr{ 
+		background-color: crimson;
+		color:white;
+	}
+			/*Celulas do Titulo*/
+			table thead tr th {		
+			padding: 15px 15px;
+			border-bottom:2px solid black;
+			border-right: 1px solid black;
+		}
+	/*Ao passar o mouse sobre a Linha*/
+	table tbody tr:hover {
+    	background-color: lightgray;		
+	}
+	/*celulas do conteudo*/
+	table tbody td{	
+		border: 1px dotted gray;
+		padding: 3px 6px;
+	}
+	/*Botoes da tabela Excluir/Alterar*/
+	table button{
+		border-radius: 10px;
+		background-color: darkorchid;
+		color: white;
+		padding: 3px 15px;/*definindo tamanhos*/
+        width: 100px;
+	}
+/*classes utilizada no javascript*/
+.estadoAlteracao{
+	background-color: orange;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+h1{
+
+    font-family: Papyrus;
+}
+
+h2{
+	color: crimson;
+}
