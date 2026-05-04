@@ -2,7 +2,7 @@
 
 <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="200"/>
 
-# 🤖 CypressE2eApi
+# 🤖 CypressE2E
 
 ### 🧪 Automação de Testes E2E — Login · Cadastro · Textos · Imagens
 
